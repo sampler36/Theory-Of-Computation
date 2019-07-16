@@ -4,10 +4,12 @@ import re # module for processing regular expressions https://docs.python.org/3/
 line = input("Enter a phone number to validate or 'exit' when done. ")
 
 # TODO Define your regex
-
+r = '\+?([\d]{0,3})[-\s]?\(?(\d{3})\)?\s?\-?(\d{3})\s?\-?(\d{4})'
 
 while line != "exit":
     # TODO Find matches
+    
+
 
     
     # TODO If no match found, print that no number was found
