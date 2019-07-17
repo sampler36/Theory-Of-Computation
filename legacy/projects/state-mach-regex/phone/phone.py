@@ -11,7 +11,8 @@ while line != "exit":
     matches = re.search( regex, line )
     
     # TODO If no match found, print that no number was found
-   
+   if not matches:
+        print( 'No phone number was found' ) 
     
     # TODO Else, break number up into area code, prefix, and suffic
  
